@@ -1,7 +1,7 @@
 # introspection
 Parse various file formats
 
-# Planned formats
+## Planned formats
 
 - Playlist
 	- xspf
