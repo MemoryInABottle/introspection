@@ -2,10 +2,10 @@ class QuickZip{
 	
 	zip_process(zipContents){
 		let z_files = [];
-		let pointer = zipContents.indexOf("PK"+chr(3)+chr(4)), numOfFiles = 0;
+		let pointer = zipContents.indexOf("PK"+(3).toChar()+(4).toChar()), numOfFiles = 0;
 			while(pointer>=0){
-				z_files[numOfFiles] = zip_readLocalFileHeader(pointer, zipContents);
-				pointer = zipContents.indexOf("PK"+chr(3)+chr(4), pointer+1);
+				z_files[numOfFiles] = this.zip_readLocalFileHeader(pointer, zipContents);
+				pointer = zipContents.indexOf("PK"+(3).toChar()+(4).toChar(), pointer+1);
 				numOfFiles++;
 			}
 		return z_files;
