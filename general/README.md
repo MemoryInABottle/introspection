@@ -6,6 +6,7 @@ Classes, object extensions, modifiers...
 - Crc-32 creation
 
 ## string.js
+- Simple HTML sanitizer
 - Number-system conversion (toInt, toHex, toBinary)
 - Random ID generator
 - Byte conversion

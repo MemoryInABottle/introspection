@@ -1,5 +1,10 @@
 // String functions
 
+if(!String.prototype.sanitize){
+	String.prototype.sanitize = function(){
+		return this.toString().replaceAll('<', '&lt;').replaceAll('>', '&gt;');;
+	}
+}
 if(!String.prototype.chr){
 	String.prototype.chr = function(charCode){
 		return String.fromCharCode(charCode);
