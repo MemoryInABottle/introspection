@@ -1,7 +1,7 @@
 // Object functions
 
-if(!Object.prototype.deepClone){
-	Object.prototype.deepClone = function(){
+if(!Object.prototype.deepCopy){
+	Object.prototype.deepCopy = function(){
 		return JSON.parse(JSON.stringify(this));
 	}
 }

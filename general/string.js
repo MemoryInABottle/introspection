@@ -27,3 +27,9 @@ if(!String.prototype.randomID){
 		return prefix + (new Date().getTime() + '_' + Math.trunc(Math.random() * 1000)) + suffix;
 	}
 }
+if(!String.prototype.bytesAt){
+	String.prototype.bytesAt = function(){
+		//Return the bytes of a partial string
+		//return 1;
+	}
+}
