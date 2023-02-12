@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>QuickZip</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Mark W&ouml;rdenweber" />
+		<meta name="description" content="Testpage for quickzip." />
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="color-scheme" content="dark light">
+		<script src="../../general/number.js"></script>
+		<script src="../../general/string.js"></script>
+		<script src="../../general/array.js"></script>
+		<script src="../../general/object.js"></script>
+		<script src="quickzip.js"></script>
+		<style>
+			html{box-sizing: border-box;}
+			*, *:before, *:after{box-sizing: inherit;}
+		</style>
+	</head>
+	<body>
+		<input type="file" id="file-upload" />
+		<script>
+			let quickzip = new QuickZip();
+			
+			document.getElementById('file-upload').addEventListener('change', function(e){
+				fetch(URL.createObjectURL(document.getElementById(this.id).files[0])).then(x => x.text()).then(y => quickzip.zip_process(y));
+			});
+		</script>
+	</body>
+</html>

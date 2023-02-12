@@ -1,50 +1,62 @@
 # introspection
-Open, parse and analyse various file formats
+Parse and analyse various file formats.
 
 ## Planned formats
 
-### Playlist:
+### Playlist
 - xspf
 - m3u
 
-### Feed:
+### Feed
 - Atom
 - RSS
 
-### Transfer:
+### Transfer
 - XML
 
-### Document:
+### Document
 - Markdown
-- XSLT (Excel)
-- RTF
-- DOC
-	- DOCX
+- CSV
 - PDF
 
-#### EBook:
+#### Office
+- XLS
+- DOC
+
+#### Office Open XML
+- DOCX
+- PPTX
+- XLSX
+
+#### OpenOffice
+- ODT
+
+#### EBook
 - EPUB
 - MOBI
 
-### Archive:
+### Archive
 - ZIP
 
-### Music:
+### Music
 - LRC
 
-#### Transfer:
+#### Transfer
 - MIDI
 
-#### Notation:
+#### Notation
 - MuseScore
 - MusicXML
 
-#### Audio:
+#### Audio
 - WAV
 - MP3
 - OGG
 
-## Image:
+#### Studio One
+- SONG
+
+## Image
 - SVG
 - JPG
 - PNG
