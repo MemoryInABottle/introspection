@@ -4,59 +4,60 @@ Parse and analyse various file formats.
 ## Planned formats
 
 ### Playlist
-- xspf
-- m3u
+- .xspf
+- .m3u
 
 ### Feed
 - Atom
 - RSS
 
 ### Transfer
-- XML
+- .xml
 
 ### Document
 - Markdown
-- CSV
-- PDF
+- .csv
+- .pdf
 
 #### Office
-- XLS
-- DOC
+- .xls
+- .doc
 
 #### Office Open XML
-- DOCX
-- PPTX
-- XLSX
+- .docx
+- .pptx
+- .xlsx
 
 #### OpenOffice
-- ODT
+- .odt
 
 #### EBook
-- EPUB
-- MOBI
+- .epub
+- .mobi
 
 ### Archive
-- ZIP
+- .zip
 
 ### Music
-- LRC
+- .lrc
 
 #### Transfer
-- MIDI
+- .midi / .mid
 
 #### Notation
-- MuseScore
-- MusicXML
+- MuseScore: .mscz / .mscx
+- MusicXML: .mxml
 
 #### Audio
-- WAV
-- MP3
-- OGG
+- .wav
+- .mp3
+- .ogg
+- .flac
 
 #### Studio One
-- SONG
+- .song
 
-## Image
-- SVG
-- JPG
-- PNG
+### Image
+- .svg
+- .jpg
+- .png
