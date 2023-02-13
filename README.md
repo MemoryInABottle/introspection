@@ -3,6 +3,9 @@ Parse and analyse various file formats.
 
 ## Planned formats
 
+### Transfer
+- .xml
+
 ### Playlist
 - .xspf
 - .m3u
@@ -11,11 +14,7 @@ Parse and analyse various file formats.
 - Atom
 - RSS
 
-### Transfer
-- .xml
-
 ### Document
-- Markdown
 - .csv
 - .pdf
 
@@ -54,8 +53,8 @@ Parse and analyse various file formats.
 - .ogg
 - .flac
 
-#### Studio One
-- .song
+#### Project
+- Studio One: .song
 
 ### Image
 - .svg
